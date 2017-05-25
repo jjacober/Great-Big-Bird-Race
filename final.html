@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <link rel ="stylesheet" href="final.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <audio autoplay loop>
+    <source src="birdSounds.mp3" type="audio/mpeg">
+    Get with the times.
+  </audio>
+</head>
+<body>
+
+<h1>The Great Big Bird Race</h1>
+<p> Choose your bird:</p>
+
+<table>
+
+<tr>
+
+  <td><div id="bird"><img id="flamingopic" src="flamingo.png" alt="flamingo"></div></td>
+  <td><div id="bird"><img id="seagullpic" src="seagull.png" alt="seagull"></div></td>
+  <td><div id="bird"><img id="storkpic" src="stork.png" alt="stork"></div></td>
+  <td><div id="bird"><img id="eaglepic" src="eagle.png" alt="eagle"></div></td>
+  <td><div id="bird"><img id="parrotpic" src="parrot.png" alt="parrot"></div></td>
+  <td><button id="go" onclick="go()">START</button></div></td>
+
+
+</tr>
+
+<tr>
+<td><button id="flamingo" onclick="flamingoOn()">Floyd</button></td>
+<td><button id="seagull" onclick="seagullOn()">Sandy</button></td>
+<td><button id="stork" onclick="storkOn()">Stanley</button></td>
+<td><button id="eagle" onclick="eagleOn()">Ellen</button></td>
+<td><button id="parrot" onclick="parrotOn()">Peter</button></td>
+<td><button id="restart" onclick="restart()">RESTART</button></div></td>
+</tr>
+
+</table>
+
+<p class="display"><canvas width="1000" height="450" id="myCanvas">
+  Get with the times
+
+</canvas></p>
+
+
+<script type ="text/javascript" src="final.js"></script>
+
+</body>
+<html>

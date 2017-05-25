@@ -1,0 +1,84 @@
+body{
+  background-color: ghostwhite;
+  font-family: "PT Serif";
+}
+
+h1, h2, .display {
+  text-align:center;
+  font-size: 48px;
+  color:powderBlue;
+  stroke:1px solid black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+p{
+  text-align:center;
+  font-size: 25px;
+  color:black;
+
+}
+button{
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  font-size: 18px;
+  text-align: center;
+  background-color: powderblue;
+}
+#go{
+  border-radius:50%;
+  font-size:30px;
+  padding:10px
+}
+#go:hover, #restart:hover{
+  background-color:green;
+  color:white;
+}
+
+#restart:hover{
+  background-color:red;
+  color:white;
+}
+
+td{
+  width:10em;
+  text-align: center;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+canvas
+{
+  border:solid 1px black;
+  background-color: powderblue;
+}
+
+img{
+  height:75%;
+  width:75%;
+  transition: all 0.5s linear;
+}
+
+#go{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#flamingo:hover{
+  background-color: pink;
+}
+
+#seagull:hover{
+  background-color: lightyellow;
+}
+
+#stork:hover{
+  background-color: coral;
+}
+#eagle:hover{
+  background-color: gold;
+}
+#parrot:hover{
+  background-color: limegreen;
+}
