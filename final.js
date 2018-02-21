@@ -177,7 +177,7 @@ function displayResult() {
     else {
       failSound.play();
     }
-    context.fillText(chosenBird+" placed "+birds[chosenBird].rank+numberEnding,200,canvas.height/2);
+    context.fillText(birds[chosenBird].name+" placed "+birds[chosenBird].rank+numberEnding,200,canvas.height/2);
   }
 }
 
